@@ -22,3 +22,13 @@ git merge create-newbranch
 git branch -d create-newbranch
 
 git push
+
+#### set upstream
+git push --set-upstream origin create-newbranch
+
+#### clone the specific branch
+git clone -b create-newbranch https://github.com/GreatEric/GitTest.git
+
+
+
+
